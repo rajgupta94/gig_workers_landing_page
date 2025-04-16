@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gig Workers Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Sign Up Form for Gig Workers</h2>
+
+  <form id="signupForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+
+    <label>Email:</label>
+    <input type="email" id="email" required>
+
+    <label>Skill Category:</label>
+    <select id="skill" required>
+      <option value="">Select a skill</option>
+      <option value="Web Design">Frontend Development</option>
+      <option value="Writing">Backend Development</option>
+      <option value="Marketing">App Development</option>
+    </select>
+
+    <label>Portfolio Link:</label>
+    <input type="url" id="portfolio" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="message" id="thankYouMessage" style="display: none;">
+    Thank you for signing up!
+  </div>
+    </div>
+</body>
+</html>
